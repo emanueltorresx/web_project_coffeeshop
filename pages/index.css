@@ -88,19 +88,18 @@
   color: #838383;
 }
 
-.header__horario {
-  margin: 0;
-}
-
-.header__paragraph {
-  margin: 0;
+.header__paragraph-dir {
   position: absolute;
   right: 80px;
   bottom: 40px;
+}
+
+.header__paragraph {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin: 0;
 }
 
 .content {
@@ -136,7 +135,7 @@
   line-height: 30px;
 }
 
-.recipes__video {
+.recipes__videos {
   display: flex;
   width: 480px;
   height: 273px;
